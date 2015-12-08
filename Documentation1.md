@@ -1,7 +1,8 @@
 # Name: Alexander Cichocki
 
 ## Examples:
-A Math Function
+sassAdder(5,5)
+Result: Honestly, 5 and 5 equals 10... duh.
 
 ## Description:
 An addition calculator that makes you feel dumb that you could figure it out using 
