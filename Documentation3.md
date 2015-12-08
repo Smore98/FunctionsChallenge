@@ -1,19 +1,24 @@
-# Name: 
+# Name: findingDisplacement
 
 ## Examples:
-Insert examples here.
+println(findingDisplacement(5,10))
 
 ## Description:
-Insert description here
+Finds the displacement of an object using its average velocity and the time it takes to reach that distance with the velocity.
 
-## Syntax:
-Demonstrate syntax here
+## Syntax: findingDisplacement(Vavg,t)
+
+x = .5 * Vavg * t
 
 ##Parameters: 
-Name and describe parameters here
+Vavg: Average velocity in m/s
+
+t: Time in seconds
+
+x: The displacement
 
 ##Returns:
-What type of data does it return?
+The displacement of the object in meters.
 
 ##Other notes:
-Anything else?
+Can only be used to find displacement. Cannot be used to find the average velocity nor the time.
