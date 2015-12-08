@@ -1,19 +1,22 @@
-# Name: 
-Alexander Cichocki
+# Name: Alexander Cichocki
+
 ## Examples:
-Insert examples here.
+A Math Function
 
 ## Description:
-Insert description here
+An addition calculator that makes you feel dumb that you could figure it out using 
 
 ## Syntax:
-Demonstrate syntax here
+void sassAdder(n1,n2){
+  a = n1 + n2;
+  text("Honestly, " +n1+ " and " +n2+ " equals " +a+ " ...duh.", 300, 100);
 
 ##Parameters: 
-Name and describe parameters here
+n1 = the first number
+n2 = the second number
 
 ##Returns:
-What type of data does it return?
+The sum of two user-inserted numbers
 
 ##Other notes:
 Anything else?
