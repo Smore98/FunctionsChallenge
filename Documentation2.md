@@ -1,19 +1,25 @@
-# Name: 
+# Name: drawColorCircle
 
 ## Examples:
-Insert examples here.
+drawColorCircle(500, 450, 0, 150, 255);
+Result: Creates a baby blue circle at coordinates 500,450 with a diameter of 100 pixels.
 
 ## Description:
-Insert description here
+Creates a circle with a diameter of 100 pixels that the user can control the placement of and change the color of.
 
 ## Syntax:
-Demonstrate syntax here
+ellipse(x,y,100,100);
+fill(r,g,b);
 
 ##Parameters: 
-Name and describe parameters here
+x: x-coordinate placement
+y: y-coordinate placement
+r: red color control
+g: green color control
+b: blue color control
 
 ##Returns:
-What type of data does it return?
+A circle in the canvas of a certain color
 
 ##Other notes:
-Anything else?
+Nothing else
